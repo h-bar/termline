@@ -1,0 +1,8 @@
+[package]
+name = "termline"
+version = "0.1.0"
+authors = ["h-bar <663yan@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+crossterm = "*"
