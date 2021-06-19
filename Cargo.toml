@@ -5,4 +5,7 @@ authors = ["h-bar <663yan@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+tui = { version = "*", default-features = false, features = ['crossterm'] }
 crossterm = "*"
+rand = "*"
+argh = "*"
